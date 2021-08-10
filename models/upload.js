@@ -1,7 +1,5 @@
 const mongoose = require('mongoose');
-
 //in database url you can either use mongodb atlas or mongodb
-
 mongoose.connect("<database url>", { useNewUrlParser:true, useUnifiedTopology:true })
 
 var db = mongoose.connection
